@@ -4,6 +4,15 @@ const line2 = document.querySelector("[data-line2]")
 const line3 = document.querySelector("[data-line3]")
 const $nav = document.querySelector("[data-nav]")
 const $body = document.querySelector("body")
+const copyright = document.querySelector("[data-copyright]")
+const logo = document.querySelector("[data-logo]")
+
+logo.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
 
 menu.addEventListener("click", ()=>{
     line1.classList.toggle("left-[48%]")
@@ -14,33 +23,14 @@ menu.addEventListener("click", ()=>{
    
 })
 
+const anoAtual = new Date().getFullYear();
 
-const carrosselServicos = document.querySelector("[data-translate]")
-const  arrowLeft = document.querySelector("[data-arrowLeft]")
-const  arrowRight = document.querySelector("[data-arrowRight]")
+copyright.innerHTML = `WM Acabamentos copyright@${anoAtual}`
 
-let count = 0
 
-arrowLeft.addEventListener("click", ()=>{
-    
-    
-    if(count > 0){
-        count--
-        carrosselServicos.style.transform = `translateX(${count * -48}%)`
-        console.log(count)
-    }
 
-  
-})
 
-arrowRight.addEventListener("click", ()=>{
 
-    if(count <= 4 -1){
-    count++
-    carrosselServicos.style.transform = `translateX(${count * -45}%)`
-       
-    }
-})
 
 
 
