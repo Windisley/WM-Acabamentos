@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+p,a,button,h1,h2,h3,h4{
+    color: #3C3B46;
+    text-transform: capitalize;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("./assets/fonts/Poppins-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/assets/fonts/Poppins-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+}
