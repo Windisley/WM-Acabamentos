@@ -69,6 +69,27 @@ window.addEventListener("scroll", ()=>{
 
 })
 
+const quemsomos = document.querySelector("[data-quemsomos]")
+
+window.addEventListener("scroll", ()=>{
+   
+    const scrollsomos = quemsomos.getBoundingClientRect()
+    
+    if(scrollsomos.top < window.innerHeight){
+       
+            quemsomos.classList.add("translate-y-0")
+            quemsomos.classList.remove("translate-y-2/4")
+            quemsomos.classList.add("opacity-100")
+            
+        }else{
+            quemsomos.classList.remove("translate-y-0")
+            quemsomos.classList.add("translate-y-2/4")
+            quemsomos.classList.remove("opacity-100")
+            
+        }
+
+})
+
 
 
 

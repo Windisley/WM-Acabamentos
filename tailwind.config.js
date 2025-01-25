@@ -18,9 +18,11 @@ module.exports = {
         "poppins-bold": "'Poppins-Bold', sans-serif", 
       },
       fontSize:{
+        titlepw: "3rem",
         title: "2rem",
         titlered: "1.5rem",
         paragraph: "1rem",
+        paragraphlw: ".8rem",
         
       },
       
