@@ -22,7 +22,7 @@ module.exports = {
         title: "2rem",
         titlered: "1.5rem",
         paragraph: "1rem",
-        paragraphlw: ".8rem",
+        paragraphlw: ".9rem",
         
       },
       
