@@ -922,10 +922,6 @@ video {
   text-align: start;
 }
 
-.font-poppins-regular {
-  font-family: 'Poppins-Regular', sans-serif;
-}
-
 .text-\[\.8rem\] {
   font-size: .8rem;
 }
@@ -1028,26 +1024,6 @@ h1,h2,h3,h4{
   to{
     transform: translateX(0%);
   }
-}
-
-@font-face {
-  font-family: "Poppins-Regular";
-
-  src: url("./assets/fonts/Poppins-Regular.ttf") format("ttf");
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins-Bold";
-
-  src: url("/assets/fonts/Poppins-Bold.ttf") format("ttf");
-
-  font-weight: bold;
-
-  font-style: normal;
 }
 
 .hover\:-translate-y-1:hover {
@@ -1240,3 +1216,4 @@ h1,h2,h3,h4{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+

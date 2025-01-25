@@ -13,10 +13,6 @@ module.exports = {
         white:           "#ffffff"
 
       },
-      fontFamily: {
-        "poppins-regular": "'Poppins-Regular', sans-serif",
-        "poppins-bold": "'Poppins-Bold', sans-serif", 
-      },
       fontSize:{
         titlepw: "3rem",
         title: "2rem",
