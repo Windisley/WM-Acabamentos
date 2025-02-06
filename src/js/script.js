@@ -69,7 +69,9 @@ window.addEventListener("scroll", ()=>{
 
 })
 
+
 const quemsomos = document.querySelector("[data-quemsomos]")
+
 
 window.addEventListener("scroll", ()=>{
    
@@ -88,7 +90,12 @@ window.addEventListener("scroll", ()=>{
             
         }
 
+
 })
+
+
+
+
 
 
 

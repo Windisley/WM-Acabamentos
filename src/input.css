@@ -40,3 +40,19 @@ h1,h2,h3,h4{
     }
 }
 
+.carrosselwork{
+    animation: slidework 1s 1 linear;
+}
+
+@keyframes slidework{
+    0%{
+        transform: translate(-100%);
+    }
+
+    50%{
+        transform: translate(0%);
+    }
+
+   
+}
+

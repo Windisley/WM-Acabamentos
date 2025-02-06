@@ -11,7 +11,6 @@ formsubmit.addEventListener("submit", (e) => {
     formsubmit.submit()
 });
 
-
 window.addEventListener("scroll", ()=>{
     const scrollform = formsubmit.getBoundingClientRect()
     
@@ -27,4 +26,7 @@ window.addEventListener("scroll", ()=>{
          formsubmit.classList.remove("opacity-100")
             
         }
+
+        
 })
+
